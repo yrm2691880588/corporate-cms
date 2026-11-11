@@ -154,4 +154,6 @@ node node_modules/next/dist/bin/next start -p 3000
 
 本项目由 [@yrm2691880588](https://github.com/yrm2691880588) 开发维护。
 
+采用 [MIT 许可证](LICENSE)，可自由用于商业与非商业项目，保留版权声明即可。
+
 基于 Next.js 15、SQLite 与 Drizzle ORM 构建，可作为企业官网的起点，修改 `config/site.config.ts` 即可换成自己的品牌。
