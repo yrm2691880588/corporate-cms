@@ -1,0 +1,31 @@
+# 忽略运行时与本地数据目录
+node_modules/
+.npm-cache/
+.next/
+next-env.d.ts
+
+# TypeScript 增量编译缓存（本地产物，不应进版本库）
+*.tsbuildinfo
+
+# ⚠️ 数据目录：包含全部内容与上传图片，不进版本库
+#    备份请看 backup/ 或直接复制 data/site.db
+data/
+
+# 日志
+*.log
+
+# 备份产物
+backup/
+
+# 临时文件与测试副本（含 tmp/test-site.db）
+tmp/
+
+# 环境变量文件：含本机配置（如 AUTO_BACKUP、后台口令），不进版本库
+.env
+.env.local
+.env.*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
